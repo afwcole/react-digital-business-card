@@ -1,0 +1,151 @@
+
+body {
+    background-color: #223322;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 44px;
+}
+
+.card {
+    width: 317px;
+    background-color: #1A1B21;
+    color: white;
+    border-radius: 10px;
+}
+
+.about {
+    padding: 0px 35px;
+}
+
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 150%;
+    margin: 0px;
+}
+
+.interests {
+    padding: 0px 35px;
+}
+
+.info--profile-pic {
+    width: 317px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.info--name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 12px;
+    margin-bottom: 7px;
+}
+
+.info--title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #F3BF99;
+    margin-top: 0px;
+    margin-bottom: 9px;
+}
+
+.info--website {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #F5F5F5;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.bottom-half {
+    text-align: center;
+}
+
+button {
+    border: none;
+    padding: 13px 9px;
+    height: 34;
+    width: 115;
+    margin: 0px;
+}
+
+.button-row {
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.linkedin-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+    width: 115px;
+    height: 34px;
+    left: 283px;
+    top: 468px;
+    background: #5093E2;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    color: white;
+}
+
+.email-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+    width: 115px;
+    height: 34px;
+    left: 151px;
+    top: 468px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.footer {
+    background-color: #161619;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 73px;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: 24px;
+}
+
+.footer-icon {
+    height: 25px;
+    width: 25px;
+}
+
+.interests--title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 27px;
+    margin-bottom: 5px;
+}
+
+.about--title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 35px;
+    margin-bottom: 5px;
+}
